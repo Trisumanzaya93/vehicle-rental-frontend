@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+*{margin:0;}
+
+.container{
+    display: flex;
+    width: 100%;
+    margin-top: 83px;
+    margin-left: 9%;
+    justify-content: space-between;
+}
+
+
+  .option-header{
+    height: 22px;
+    margin-top: 11px;
+    margin-left: 350px;
+    overflow: hidden;
+  }
+  .text-options-header{
+    color: #B8BECD;
+    text-decoration: none;
+    margin-left: 35px;
+    font-family: 'Nunito sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  .text-options-header:hover {
+    color: #202336;
+  }
+  .wrap-massage{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-top: 11px;
+      margin-left: 163px;
+  }
+  .massages{
+      margin-top: -11px;
+      background-color: #FFCD61;
+      width: 20px;
+      height: 20px;
+      border-radius: 20px;
+      z-index: 1;
+    }
+    .icon-image{
+      background-image: url(/assets/image/icon5.png);
+      width: 40px;
+      height: 40px;
+      margin-left: -10px;
+      margin-top: -5px;
+  }
+  .message-number{
+      font-weight: bold;
+      font-size: 17px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .icon-profil{
+      width: 45px;
+      height: 45px;
+      background-image: url(/assets/image/img6.png);
+      background-size: 45px  45px;
+      border-radius: 30px;
+      margin-left: 60px;
+  }
+  .wrap-main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 83px;
+    margin-left: 10%;
+}
+.wrap-text-detail{
+  display: flex;
+}
+.text{
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+.text1{
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.wrap-galery-img{
+  display: flex;
+  width: 90%;
+}
+.galery-img{
+  width: 610px;
+  height: 520px;
+  background-image: url('/assets/image/img7.png');
+  background-size: 610px 520px;
+  margin-top: 112px;
+}
+.wrap-detail-vehicle{
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+.text-name{
+  font-family: "Playfair Display";
+font-style: normal;
+font-weight: 900;
+font-size: 54px;
+color: #042521;
+margin-top: 85px;
+}
+.text-location{
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-size: 40px;
+  color: #042521;
+  margin-top: 5px;
+}
+.text-available{
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  align-items: center;
+  color: #087E0D;
+  margin-top: 48px;
+}
+.text-payment{
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 24px;
+  align-items: center;
+  color: #9B0A0A;
+  margin-top: 15px;
+  margin-bottom: 19px;
+}
+.text-detail{
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 24px;
+  color: #393939;
+  margin-top: 10px;
+}
+.text-price{
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  color: #000000;
+  text-align: right;
+  margin-top: 54px;
+}
+.wrap-prev{
+  display: flex;
+}
+.prev{
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+.galery-img1{
+  width: 233px;
+  height: 158px;
+  background-image: url('/assets/image/img7.png');
+  background-size: 233px 158px;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.galery-img2{
+  width: 233px;
+  height: 158px;
+  background-image: url('/assets/image/img7.png');
+  background-size: 233px 158px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-right: 28px;
+}
+.btn-total{
+  width: 80px;
+  height: 80px;
+  background: rgba(203, 203, 212, 0.2);
+  border-radius: 10px;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 105px;
+  margin-left: 68px;
+}
+.display-total{
+  width: max-content;
+  font-family: "Nunito Sans";
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+color: #000000;
+margin-top: 105px;
+margin-left: 147px;
+}
+.btn-total1{
+  width: 80px;
+  height: 80px;
+  background:#FFCD61;
+  border-radius: 10px;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 105px;
+  margin-left: 145px;
+}
+.wrap-btn-order{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 9%;
+}
+.btn-chat-admin{
+  width: 443px;
+  height: 89px;
+  margin-top: 28px;
+  margin-bottom: 24px ;
+  margin-left: 10px;
+  padding: 23px  23px ;
+  background: #393939;
+  color: #FFCD61;
+  box-shadow: 0px 0px 20px rgba(248, 161, 112, 0.47);
+  border-radius: 10px;
+  font-family: 'Nunito Sans' ;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+}
+.btn-reservation{
+  width: 421px;
+  height: 89px;
+  margin-top: 28px;
+  margin-bottom: 24px ;
+  margin-left: 35px;
+  padding: 23px  23px ;
+  background: #FFCD61;
+  box-shadow: 0px 0px 20px rgba(248, 161, 112, 0.47);
+  border-radius: 10px;
+  font-family: 'Nunito Sans' ;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+}
+.btn-like{
+  width: 443px;
+  height: 89px;
+  margin-top: 28px;
+  margin-bottom: 24px ;
+  margin-left: 35px;
+  padding: 23px  23px ;
+  background: #393939;
+  color: #FFCD61;
+  box-shadow: 0px 0px 20px rgba(248, 161, 112, 0.47);
+  border-radius: 10px;
+  font-family: 'Nunito Sans' ;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+}
+.wrap-footer{
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 108px; 
+}
+.wrap-footer2{
+  width: 100%; 
+}
+.text9{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #848484;
+  width: 300px;
+  margin-top: 27px;
+  margin-right: 200px;
+}
+.text10{
+  font-family: "Mulish";
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+color: #393939;
+margin-bottom: 12px;
+}
+.text-options{
+  color: #B8BECD;
+  text-decoration: none;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.text-options:hover {
+  color: #202336;
+}
+.line3{
+  width: 90%;
+  height: 1px;
+  margin-top: 6px;
+  margin-left: 5%;
+  background-color: #4E4E4E;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+i{
+  width: 26px;
+  height: 20px;
+  margin-left: 35px;
+  margin-top: 32px;
+}
+
+@media (max-width:768px) {
+  .option-header{
+    margin-left: 10px;
+    display: none;
+  }
+  .wrap-massage{
+    margin-left: 200px;
+  }
+  .icon-profil{
+    margin-left: 10px;
+  }
+  .text{
+    font-size: 22px;
+  }
+  .text1{
+    font-size: 22px;
+  }
+  .wrap-galery-img{
+    flex-direction: column;
+  }
+  .galery-img{
+    width: 160px;
+    height: 150px;
+    background-size: 160px 150px;
+  }
+  .text-name{
+    font-size: 20px;
+  }
+  .text-location{
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  .text-available{
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  .text-payment{
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  .text-detail{
+    font-size: 12px;
+  }
+  .text-price{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .wrap-prev{
+    display: none;
+  }
+  .wrap-btn-order{
+    flex-direction: column;
+  }
+.btn-chat-admin{
+  width: 200px;
+  height: 100px;
+  margin-left: 30px;
+}
+.btn-reservation{
+  width: 200px;
+  height: 100px; 
+}
+.btn-like{
+  width: 200px;
+  height: 100px;
+}
+.wrap-footer{
+  display: none;
+}
+.line3{
+  width: 90%;
+}
+i{
+  margin-left: 20px;
+}
+}
