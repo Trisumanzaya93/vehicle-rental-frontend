@@ -5,50 +5,34 @@
 *{margin:0}
 .header{
     display: flex;
+    width: 90%;
     margin-top: 83px;
-    margin-left: 123px;
-    margin-right: 78px;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo{
-    width: 45px;
-    height: 45px;
-    background-color: #393939;
-    border-radius: 30px;
-  }
-  .circle2{
-    width: 25px;
-    height: 25px;
-    margin-top: 10px;
-    padding-top: 1px;
-    margin-left: 10px;
-    background-color: white;
-    border-radius: 30px; 
-  }
-  .circle3{
-    width: 15px;
-    height: 15px;
-    margin-top: 4px;
-    margin-left: 5px;
-    background-color: #FFCD61;
-    border-radius: 10px;   
-  }
   .option-header{
+    display: flex;
     height: 22px;
-    margin-top: 11px;
-    margin-left: 350px;
+    justify-content: space-between;
+    align-items: center;
   }
   .text-options-header{
     color: #B8BECD;
     text-decoration: none;
-    margin-left: 35px;
     font-family: 'Nunito sans';
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    margin-left: 10px;
+    font-size: 14px;
   }
   .text-options-header:hover {
     color: #202336;
+  }
+  .wrap-btn-auth{
+    justify-content: center ;
   }
   .btn-login{
     height: 44px;
@@ -91,7 +75,7 @@
     width: 100%;
     height: 760px;
     margin-top: 59px;
-    padding-left: 121px;
+    padding-left: 5%;
     padding-top: 69px;
   }
   .text1{
@@ -141,6 +125,12 @@
   font-size: 36px;
   color: #000000;
   margin-top: 82px;
+}
+.wrap-card{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
   
 }
 .row2{
@@ -150,12 +140,38 @@
 
 }
 .card1{
-  background: url(/assets/image/img2.png);
+  background-image: url(/assets/image/img2.png);
+  background-size: 100% 100%;
+  width: 204px;
+  height: 307px;
+  margin-top: 55px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+.card2{
+  background: url(/assets/image/img8.png);
   background-size: cover;
   width: 204px;
   height: 307px;
   margin-top: 55px;
-  margin-right: 80px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+.card3{
+  background: url(/assets/image/img9.png);
+  background-size: cover;
+  width: 204px;
+  height: 307px;
+  margin-top: 55px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+.card4{
+  background: url(/assets/image/img10.png);
+  background-size: cover;
+  width: 204px;
+  height: 307px;
+  margin-top: 55px;
   border-radius: 6px;
   margin-bottom: 40px;
 }
@@ -165,8 +181,11 @@
   background: #FFFFFF;
   border-radius: 0px 6px 0px 0px; 
   margin-top: 251px;
-  margin-left: -12px;
   padding-top: 11px;
+}
+.wraper-stars{
+  display: flex;
+  flex-direction: column;
 }
 .text4{
   font-family: 'Nunito Sans';
@@ -301,4 +320,10 @@ i{
   height: 20px;
   margin-left: 35px;
   margin-top: 32px;
+}
+
+@media (max-width:768px) {
+  .option-header{
+    display: none;
+  }
 }

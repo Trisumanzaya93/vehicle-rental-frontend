@@ -9,15 +9,27 @@
 
 .row1{
   width: 50%;
+  background-image: url(/assets/image/img2.png);
+  background-size: 100%;
 }
 .row2{ 
   width: 50%;
-  margin-left: 85px;
-  margin-top: 64px;
-  margin-bottom: 45px;
-  margin-right: 85px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;  
+}
+.wrap-form{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+.wraper-form-m{
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
 
 .text1{
@@ -26,7 +38,7 @@
   font-weight: bold;
   font-size: 48px;
   line-height: 64px;
-  margin-bottom: 71px;
+  margin-bottom: 51px;
 }
 
 .inputLogin{
@@ -64,17 +76,16 @@
 .wrap1{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
 }
 .line1{
-  width: 114px;
+  width: 25%;
   height: 1px;
-  margin-top: 40px;
   background-color: #4E4E4E;
 }
 .text3{
-  margin-top: 27px;
-  margin-left: 27px;
-  margin-right: 27px;
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: bold;
@@ -83,9 +94,8 @@
   color: rgba(57, 57, 57, 0.5);
 }
 .line2{
-  width: 114px;
+  width: 25%;
   height: 1px;
-  margin-top: 40px;
   background-color: #4E4E4E;
 }
 .button2{
@@ -99,18 +109,14 @@
 .wrap-google{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .img-btn{
   width: 34px;
   height: 33px;
-  margin-left: 20%;
-  margin-right: 13px;
-  margin-top: 23px;
-  margin-bottom: 23px;
 }
 .text4{
-  margin-bottom: 23px;
-  margin-top: 23px;
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 900;
@@ -120,7 +126,7 @@
 }
 .button3{
   width: 100%;
-  height: 56px;
+  height: 76px;
   margin-top: 34px;
   background: #393939;
   box-shadow: 0px 0px 20px rgba(248, 161, 112, 0.47);
@@ -132,19 +138,20 @@
   font-size: 24px;
   line-height: 33px;
   text-align: center;
-  padding-top: 23px;
   text-decoration: none;
 }
 
 .footer{
   display: flex;
   flex-direction: column;
-  margin-top: 36px;
+  margin-top: 26px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .logo{
   width: 45px;
   height: 45px;
-  margin-top: 84px;
+  margin-top: 64px;
   background-color: #393939;
   border-radius: 30px;
 }
@@ -181,7 +188,9 @@
 }
 .social-media{
   display: flex;
-  padding-left: 55px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 i{
@@ -197,20 +206,91 @@ i{
   }
   .row2{
     width: 100%;
-    margin-left: 15px;
-    margin-right: 15px;
+  }
+  .wrap-form{
+    background-image: url(/assets/image/img2.png);
+    background-size: 100%;
+    position: relative;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .wraper-form-m{
+    width: 80%;
+    height: 95%;
+    background-color: rgba(255, 255, 255,0.7);
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
   }
   .wrap1{
     width: 100%;
+  }
+  .wrap-google{
+    justify-content: center;
+    text-align: center;
+  }
+  .text1{
+    color: black;
   }
   .text3{
     width: 100%;
     font-size: 20px;
   }
-  .img-btn{
-    margin-left: 35px;
+  .text4{
+    font-size: 18px;
+    margin-left: 10px;
   }
-  .social-media{
-    padding-left: 5px;
+  .button2{
+    height: 50px;
   }
+  .button3{
+    font-size: 18px;
+    height: 40px;
+  }
+  .footer{
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+.text1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.inputLogin{
+  height: 50px;
+  font-size: 15px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.button1{
+  height: 40px;
+  margin-top: 10px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.text3{font-size: 20px;}
+.wrap-google{
+  justify-content: center;
+  text-align: center;
+}
+.footer{
+  margin-top: 0px;
+}
+.logo{
+  margin-top: 20px;
+}
+.text5{
+  margin-top: 15px;
+}
 }

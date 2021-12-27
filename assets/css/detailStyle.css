@@ -9,6 +9,7 @@
     width: 100%;
     margin-top: 83px;
     margin-left: 9%;
+    margin-right: 8%;
     justify-content: space-between;
 }
 
@@ -16,7 +17,7 @@
   .option-header{
     height: 22px;
     margin-top: 11px;
-    margin-left: 350px;
+    margin-right: 35px;
     overflow: hidden;
   }
   .text-options-header{
@@ -36,29 +37,26 @@
       justify-content: center;
       align-content: center;
       margin-top: 11px;
-      margin-left: 163px;
+      
   }
   .massages{
-      margin-top: -11px;
       background-color: #FFCD61;
       width: 20px;
       height: 20px;
       border-radius: 20px;
+      margin-left: -10px;
+      margin-top: -7px;
       z-index: 1;
     }
     .icon-image{
       background-image: url(/assets/image/icon5.png);
       width: 40px;
       height: 40px;
-      margin-left: -10px;
-      margin-top: -5px;
-  }
-  .message-number{
-      font-weight: bold;
-      font-size: 17px;
-      display: flex;
       justify-content: center;
-      align-items: center;
+      align-content: center;
+      text-align: center;
+      margin-right: 10px;
+      
   }
   .icon-profil{
       width: 45px;
@@ -66,7 +64,7 @@
       background-image: url(/assets/image/img6.png);
       background-size: 45px  45px;
       border-radius: 30px;
-      margin-left: 60px;
+      
   }
   .wrap-main{
     display: flex;
@@ -108,13 +106,13 @@
   width: 610px;
   height: 520px;
   background-image: url('/assets/image/img7.png');
-  background-size: 610px 520px;
+  background-size: 100% 100%;
   margin-top: 112px;
 }
 .wrap-detail-vehicle{
   display: flex;
   flex-direction: column;
-  margin-left: 3%;
+  margin-left: 5%;
 }
 .text-name{
   font-family: "Playfair Display";
@@ -167,6 +165,18 @@ margin-top: 85px;
 }
 .wrap-prev{
   display: flex;
+  width: 95%;
+}
+.wrap-img-prev{
+  display: flex;
+  width: 47%;
+}
+.wrap-img-prev1{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 10%;
 }
 .prev{
   font-family: "Nunito Sans";
@@ -183,7 +193,7 @@ margin-top: 85px;
   width: 233px;
   height: 158px;
   background-image: url('/assets/image/img7.png');
-  background-size: 233px 158px;
+  background-size: 100% 100%;
   margin-left: 30px;
   margin-top: 25px;
 }
@@ -191,45 +201,39 @@ margin-top: 85px;
   width: 233px;
   height: 158px;
   background-image: url('/assets/image/img7.png');
-  background-size: 233px 158px;
+  background-size: 100% 100%;
   margin-left: 25px;
   margin-top: 25px;
   margin-right: 28px;
 }
 .btn-total{
   width: 80px;
-  height: 80px;
   background: rgba(203, 203, 212, 0.2);
   border-radius: 10px;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: bold;
-  margin-top: 105px;
-  margin-left: 68px;
+  
 }
 .display-total{
   width: max-content;
   font-family: "Nunito Sans";
 font-style: normal;
 font-weight: 900;
-font-size: 48px;
+font-size: 54px;
 color: #000000;
-margin-top: 105px;
-margin-left: 147px;
+
 }
 .btn-total1{
   width: 80px;
-  height: 80px;
   background:#FFCD61;
   border-radius: 10px;
   font-size: 45px;
   font-weight: bold;
-  margin-top: 105px;
-  margin-left: 145px;
 }
 .wrap-btn-order{
   display: flex;
+  width: 95%;
   justify-content: space-between;
-  margin-right: 9%;
 }
 .btn-chat-admin{
   width: 443px;
@@ -282,8 +286,8 @@ margin-left: 147px;
   line-height: 33px;
 }
 .wrap-footer{
-  width: 100%;
-  margin-left: 5%;
+  width: 86%;
+  margin-left: 9%;
   margin-top: 108px; 
 }
 .wrap-footer2{
@@ -297,7 +301,7 @@ margin-left: 147px;
   color: #848484;
   width: 300px;
   margin-top: 27px;
-  margin-right: 200px;
+  
 }
 .text10{
   font-family: "Mulish";
@@ -320,10 +324,10 @@ margin-bottom: 12px;
   color: #202336;
 }
 .line3{
-  width: 90%;
+  width: 100%;
   height: 1px;
   margin-top: 6px;
-  margin-left: 5%;
+  
   background-color: #4E4E4E;
 }
 .social-media{
@@ -338,6 +342,16 @@ i{
   margin-left: 35px;
   margin-top: 32px;
 }
+.wrap-row-footer{
+  display: flex;
+  
+  justify-content: space-between;
+}
+.wrap-column-footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
 @media (max-width:768px) {
   .option-header{
@@ -350,6 +364,10 @@ i{
   .icon-profil{
     margin-left: 10px;
   }
+  .wrap-main{
+    justify-content: center;
+    text-align: center;
+  }
   .text{
     font-size: 22px;
   }
@@ -358,6 +376,8 @@ i{
   }
   .wrap-galery-img{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .galery-img{
     width: 160px;
@@ -384,14 +404,24 @@ i{
   }
   .text-price{
     font-size: 15px;
-    text-align: left;
+    text-align: center;
     margin-top: 10px;
   }
-  .wrap-prev{
+  .wrap-img-prev{
     display: none;
+  }
+  .wrap-img-prev1{
+    padding-left: 0%;
+    margin-top: 20px;
+  }
+  .wrap-prev{
+    justify-content: center;
+    align-items: center;
   }
   .wrap-btn-order{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 .btn-chat-admin{
   width: 200px;
@@ -406,13 +436,58 @@ i{
   width: 200px;
   height: 100px;
 }
-.wrap-footer{
+.wrap-row-footer{
   display: none;
 }
-.line3{
-  width: 90%;
-}
+
 i{
   margin-left: 20px;
 }
+}
+
+@media (max-width:1024px) {
+  .btn-total1{
+    font-size: 20px;
+    width:40px
+  }
+  .btn-total{
+    font-size: 20px;
+    width:40px
+  }
+  .display-total{
+    font-size: 25px;
+  }
+  .galery-img{
+    width: 510px;
+    height: 360px;
+    background-size: 100% 100%;
+  }
+  .galery-img1{
+    height: 100px;
+  }
+  .galery-img2{
+    height: 100px;
+  }
+  .text-name{
+    margin-top: 105px;
+    font-size: 25px;
+  }
+  .text-location{
+    margin-top: 0px;
+    font-size: 25px;
+  }
+  .text-available{
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .text-payment{
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  .text-detail{
+    font-size: 20px;
+  }
+  .text-price{
+    font-size: 25px;
+  }
 }
